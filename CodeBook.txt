@@ -1,0 +1,24 @@
+Code book
+
+Author: Randall Gonzalez 
+gonzalezrandall@gmail.com
+Create date: 04/26/2015
+Pull date: 04/26/2015
+Source data pulled from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+---
+"subject": subject code as defined in source files subject_test.txt or subject_train.txt 
+
+"activity": activity name as defined in source activity_labels.txt - derived from activity codes contained in source files y_test.txt or y_train.txt
+
+"variable": one of the standard deviation ("std") or mean measures contained within source files x_test.txt or x_train.txt
+
+"avg": average of all values present in the source data for the specified (subject, activity, variable) combination
+---
+
+For more information refer to the source data:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+As well as to the description of how it was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
